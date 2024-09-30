@@ -1,0 +1,28 @@
+{
+    "name": "PolymindGames",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b132e802818c2328a68f0708e4164ffc",
+        "GUID:696a0953692949b40bec8730e64e1fdd",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:72872094b21c16e48b631b2224833d49",
+        "GUID:5540e30183c82e84b954c033c388e06c",
+        "GUID:fe25561d224ed4743af4c60938a59d0b",
+        "GUID:4c3f49d89436d478ea78315c03159dcc",
+        "GUID:007ed940a76231e4b9e88d212b846a54",
+        "GUID:03058786646e84a4587858e9302c3f41",
+        "GUID:6087a74f6015aae4daed9a2577a7596c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
