@@ -1,0 +1,61 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset bundles
+/[Aa]sset[Bb]undles/
+
+# Crash reports
+/[Cc]rash[Rr]eports/
+
+# Auto-generated files
+/ExportedObj/
+/.consulo/
+/.idea/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.opendb
+/*.VC.db
+
+# Packed memory snapshots
+/[Mm]emoryCaptures/
+
+# Script debugging files
+*.pdb
+*.mdb
+*.opendb
+
+# Unity system file backups
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider's Debugger
+.idea/
+/.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Cache
+/[Cc]ache/
