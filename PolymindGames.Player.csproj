@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{121416EB-075C-5EE5-749A-1A5F43B46CE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>PolymindGames</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\Player\</OutputPath>
+    <DefineConstants>UNITY_2022_3_31;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;XWIZARD_GAMES_STP_MP;XWIZARD_GAMES_RELAY_SYSTEM;XWIZARD_GAMES_LOBBY_SYSTEM;MIRROR;MIRROR_79_OR_NEWER;MIRROR_81_OR_NEWER;MIRROR_82_OR_NEWER;MIRROR_83_OR_NEWER;MIRROR_84_OR_NEWER;MIRROR_85_OR_NEWER;MIRROR_86_OR_NEWER;MIRROR_89_OR_NEWER;XWIZARD_GAMES_AUTHENTICATION_SYSTEM;GAIA_2_PRESENT;GAIA_PRO_PRESENT;GAIA_MESH_PRESENT;CROSS_PLATFORM_INPUT;FLORA_PRESENT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.31f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\Utilities\unity\2022.3.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="D:\Utilities\unity\2022.3.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\FirearmIndexBasedAttachmentsManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraHeightController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterCrouchState.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\_Wieldables\Carriable\Carriable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\Death\IDeathModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\Blockers\CharacterUseBlocker.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Gameplay\SoloSurvivalGameMode.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Recoil\FirearmNoRecoil.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\ButtonUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\CurvesMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\GatherableDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\MotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\IFirearm.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\Workstation.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\MessageDisplayerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\ProjectileEffects\FirearmProjectileEffectBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\Previews\BuildablePreview.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\ObjectCarryUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\IPhysicsProjectile.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Surfaces\SurfaceTexturesSet.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\Previews\FreeBuildablePreview.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\IWieldablesController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemContainerWeightUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemPropertyType.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\ContainerGenerator.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Core\RaycastManagerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Pooling\ObjectPool.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Panels\PanelUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\FPSObjectCarryInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Aimers\FirearmAimerBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\FuelSelectorUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\ItemContainer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\OffsetMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\ThirstManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\WheelUIInput.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Sleep\ISleepingPlace.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Shooters\FirearmParabolicShooter.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\GroupDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\IWeightHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\HealsUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\Spring3D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\AnimCurve1D.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\TemperatureManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Ammo\IAmmo.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\BobMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\PlayerDataInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Controllers\InventoryInspectManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputContext.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Input\IAimInputHandler.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\FirearmParabolicShooterNetworked.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Pickup\FirearmItemPickup.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\Managers\WieldableSurvivalBookHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\States\StructurePlacementState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\SpringSettings.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\ItemInfoBasicUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterIdleState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputActionMode.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\WorldManagerBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\ItemRequirementInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Body\CharacterPreviewUI.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\ThirdPersonPlayer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\FPSCounterUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\ObjectToggleInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Recoil\FirearmPatternRecoil.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\IdGenerator.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\IAudioPlayer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\IWieldableEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\WieldableItemBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputContextBase.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Sleep\CharacterSleepEffects.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Animation\AnimatorParameterTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Clothing\BodyClothing.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\TeleportPlayerBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\ParabolicProjectile.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Category\ItemCategoryDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Data\DefenseData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Input\IReloadInputHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Panels\AnimatedPanelUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Pooling\PoolableObject.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\ThirdPersonWeapon.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldablesController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\UnityExtensions.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Vitals\PlayerStaminaUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSFiremodeInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\UnityUtils.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\StructureManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\BobMotionDataBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\GraphicAlphaTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\CameraMotionDisablerEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Vitals\PlayerHealthUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\States\FreePlacementState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\IStaminaController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\IWheelUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\ViewOffsetMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\IInteractableFeedbackUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\PostProcessingManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\FirearmBurstFireTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Modules\IMeleeSwing.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\WieldableEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\ButtonAudioUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerRemoveRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\Core\TweenSequence.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\CameraMotionEnablerEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\AmmoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldableMotionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\FPSBuildingInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Modules\GatheringMeleeSwing.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\VisualEffects\WieldableObjectVFX.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\BuildingManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\WorkstationInspectControllerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\SpriteRendererAlphaTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\GenericDataInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\ItemCategoryInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemTagDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\ChildOfLookHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\OneShotSoundEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\ItemPropertyFillBarInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\Core\Tween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\Blockers\CharacterReloadBlocker.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\GuidManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\SaveLoadManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\SimpleOffsetMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterWalkState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\FiremodesUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Gameplay\SpawnPointData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\ISaveableComponent.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\DummyItem.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\NetworkLootSpawner.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\StructureBuildable.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\FPSInventoryInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\IParabolicProjectile.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemSelectorUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputContextGroup.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\AnimationFeedbackUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\FirearmHoldTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\AudioPlayer.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\STP_MP_NetworkManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\DataDefinitionInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\MaterialColorTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\FirearmAttachmentBehaviour.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Scripts\LobbyController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Gameplay\MoveToSpawnPoint.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSLookInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\BasicCrosshairUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\PlayerUIInputBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Behaviours\FPFirearmCartridge.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Aimers\FirearmBasicAimer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\FirearmChargingTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Damage\DamageUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Interaction\GenericInteractionUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\GuidComponent.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LocalPositionTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\CharacterBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\RetractionMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\Explosion.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Aimers\FirearmNoAimer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\MovementPreset.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Data\CookData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\IWieldableHealingHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemAction.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Movement\CharacterVitalsVelocityHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\RetractionMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\HealthManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\RequirementUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LocalScaleTween.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\WorldManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\PhysicsUtils.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\BuildMaterialDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemDefinitionSlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Interaction\IInteractionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\IItemContainer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Recoil\FirearmRecoilBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemPropertyDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Shooters\IShooter.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\PlayerLookHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\ParabolicStickyProjectile.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LightColorTween.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\StorageStation.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\ToggleTimeProgression.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\NoiseMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\Core\TweenManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\MapSlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\CursorLocker.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\FPSSurvivalBookInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\Blockers\CharacterAimBlocker.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Sleep\ISleepHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\TextMeshProAlphaTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Shooters\FirearmShooterBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\WieldableEffectsToggler.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\BuildablesControllerNetworked.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\StringExtensions.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\ILookHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\Consumables\ConsumableManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\OffsetMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\AudioSourcePitchTween.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Clothing\ClothingType.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\DataDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\ColliderTriggerHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\TriggerEventHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\RecoilMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LightSpotAngleTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldableInventorySelectionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\AdditiveShakeMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\Core\TweenAnimation.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Actions\ChangeVitalsAction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\Handlers\CharacterWieldableVelocityHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Gatherables\TreeHealthIndicatorUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\ItemGenerator.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\SurvivalBook\BookBuildableUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Manager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerActionRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\Behaviours\TreeChopBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\Character.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\SpriteSwapFeedbackUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\PhysicsProjectile.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\_Wieldables\Carriable\Actions\CarriableBuildAction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\Spring2D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldableHealingHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Pickup\ItemPickup.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\Behaviours\TreeFallBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\PlayerItemContainerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\IWieldable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Inventory\IInventory.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\ICharacterMotor.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Surfaces\SurfaceEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\DataInfoBaseUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\PhysicsProjectileBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Input\IDropInputHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\Core\MotionDataHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Interaction\IInteractable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\ICameraEffectsHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemActionsUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerPropertyRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Reloaders\FirearmStandardReloader.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\Previews\StructurePreview.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\CharacterTriggerHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\SpringForce2D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\IWieldableItem.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Vitals\PlayerVitalsUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\RotationTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\ItemInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Actions\EquipAction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\AudioSourceVolumeTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerAddRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\BasicItemSelectorUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Modules\ThrowMeleeSwing.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Panels\AudioPanelUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Behaviours\FPFirearmPartsCorrector.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraFOVHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\NoiseMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\GatherableBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\CollisionAudioHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemPropertyGenerator.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\HealthEffectorVolume.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\BuildSelectionUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Firearm.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\ValueVector3Tween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Tools\Behaviours\WieldableDurabilityDepleter.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\WieldableMotionDisablerEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Reloaders\FirearmProgressiveReloader.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\TweenFeedbackUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\MovementModifier.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemInspectorUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Controllers\IInventoryInspectManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\NavigationUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Aimers\IAimer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldableThrowableHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\StaminaController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\ProjectileEffects\IProjectileEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\HighlightGraphicFeedbackUI.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Scripts\ServiceController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\FillBarUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\SimpleBobMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Interaction\InteractableInfoDisplayUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Interaction\IHoverable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\BasicHitbox.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Polearm.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\CampfireEffects.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\IHungerManager.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\CarriableNetworked.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\Core\IMotionDataHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Utility\InventoryStartupItemsInfo.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\Shake3D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Settings\UserSettingsBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\ItemSpawner.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Animation\AnimatorParameterAttribute.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Ammo\FirearmAmmoBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\GameDate.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\FirearmSemiAutoTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Utility\InventoryUtility.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Actions\AutoMoveAction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\EventsInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldableArmsHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterSlideState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterAirborneState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\DataIdReference.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSWieldablesInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\SpringForce1D.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Crafting\ICraftingManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\AnchoredPositionTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\ColorTintFeedbackUI.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Scripts\VivoxController.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\Consumables\Consumable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Utility\ItemUtility.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\SoundPlayer.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\BuildRequirement.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\CraftingUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\ItemDragInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\FallMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\CameraDelayedForcesEffect.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\TemperatureEffector.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\IBuildingController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Panels\TweenPanelUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Projectiles\ParabolicProjectileBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\PlayerNameUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\LeanMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\Managers\IWieldableCarriableHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Modules\MeleeComboHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\WieldableHolsterHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\TutorialMessage.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Interaction\InteractionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Actions\RepairAction.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\NetworkSingleton.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Reloaders\FirearmBasicReloader.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\GraphicColorTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\Spring1D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\ICharacter.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\TMP_TextSizer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\DataNameReference.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\WieldableAnimator.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\BasicItemDragger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\FootstepsManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\FPWieldableAnimatorWithArms.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\SaveableObject.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\IWorkstation.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerWeightRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\VisualEffects\WieldableRigidbodyVFX.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\FPWieldableMotionMixer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\EaseType.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\CameraMotionWeightEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\SelectableTextUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\Handlers\CharacterJumpBlocker.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\BodyLeanHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\WorldManagerSettings.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Inventory\IItemDropHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Pickup\ItemPickupBundle.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\StrafeMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSInteractionInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\ObjectDropper.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\OffsetMotionDataBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Ammo\FirearmInfiniteAmmo.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\SessionValidator.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\CameraFieldOfViewTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Settings\GameplaySettings.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Damage\DeathUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Inventory\Inventory.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemProperty.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Inventory\ItemDropHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Recoil\FirearmBasicRecoil.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Body\CharacterPreviewRotationHandlerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSArmsChangeInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\CharacterControllerMotor.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\LookMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\Sounds.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSBodyLeanInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\PlayerMovementController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\CameraShakeEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputHelper.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\DamageInfo.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\SurvivalBook\SurvivalBookUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\_Wieldables\Carriable\CarriablePickup.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\UI\UISessionElement.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\AnimCurves2D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\ProjectileEffects\FirearmStandardProjectileEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\IMovementController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Core\PlayerUIManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\Socket.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\BuildableDefinitionSlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\GuidReference.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Surfaces\SurfaceDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\DelayedRandomSoundsEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerCategoryRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Pickup\ItemPickupBase.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Character\SurvivalPlayerExtensions.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\MaterialAlphaTween.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\GameTime.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Pooling\PoolingManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\FPSBuildingPreviewsInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\ImageFaderUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Singleton.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\Player.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\UpdateManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerDataRestriction.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\StorageStationUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Aimers\FirearmScopedAimer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\WieldableMotionWeightEffect.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\_Wieldables\Carriable\CarriableDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\FreeBuildable.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\CharacterBuildController.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ButtonItemActionUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemWheelSlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\FirearmFullAutoTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Reloaders\FirearmReloaderBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\IGatherable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\ICharacterMotionState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Behaviours\FPFirearmCartridgeCorrector.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\SelectableUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\TextMeshProColorTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Reloaders\IReloader.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Surfaces\SurfaceManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Data\FuelData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Animation\AnimationOverrideClips.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\VisualEffects\WieldableVFXBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\HungerManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\AnimCurves3D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\IDamageReceiver.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\MapSelectionMenuUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Shooters\FirearmHitscanShooter.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\SimpleSoundEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\CharacterInputBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\ToggleUIInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\FirearmTriggerBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\Easer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\SelectableGroupBaseUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\IWieldableArmsHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\IMotionMixer.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\MovementStateType.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\ShakeSettings3D.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\StandingTorch.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Tools\Tool.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\DelayedSoundsEffect.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\SimpleRagdollController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\SoundPlayerWithCooldown.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemAttachmentsUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\BuildableCategoryDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\VisualEffects\WieldableParticleVFX.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Interaction\Interactable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\CharacterMotionState.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\IStructureDetector.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Recoil\RecoilMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Triggers\ITrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Tools\Behaviours\WieldableCharacterMotionAnimator.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\SwayMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LocalRotationTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\FPWieldableFOV.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\IDataReferenceHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\WieldableItem.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\FadeScreenUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\Managers\IWieldableSurvivalBookHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Data\BuildMaterialData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\IChargeHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\NetworkCharacterBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraShakeManagerBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Settings\UserSettings.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\Billboard.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\MaterialEffectInfo.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\WieldableForceEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraEffectSettings.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemActionUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\Core\MotionPreset.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\SpringForce3D.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\FPWieldableAnimator.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraMotionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\ItemData.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\SleepingBag.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\IThirstManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\CraftingStationUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\Managers\WieldableCarriableHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\ControlUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemContainerUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\Inspection\BuildableRequirementInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\PlayerLookFollow.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\WieldableShakeEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\IWieldableSelectionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\IWieldableThrowableHandler.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\ThirdPersonClothesController.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\UI\UIRoom.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\MainMenuUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\Core\MotionDataBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Healing\HealingItem.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\GroupMemberDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemCategorySlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\ItemSlot.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\_Wieldables\Carriable\Actions\CarriableAction.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Scripts\AuthenticationController.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\InventoryInspectionTrigger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraEffectsHandler.cs" />
+    <Compile Include="Assets\XWizardGames\STP MP\Scripts\GameplayMode.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\ParticleSystemCollection.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\ProjectileEffects\FirearmBasicProjectileEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\ChildOfConstraint.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\ValueColorTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemSlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Controllers\InventoryMaterialsHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Modules\MeleeSwingBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Tools\Behaviours\FPCompassRose.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\EnergyManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\SelectableTabUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\CharacterVitalModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\ItemPropertyTextInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\AudioEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\MotionMixer.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\States\PlacementState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\IAccuracyHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\BuildMaterialsUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\CameraOrthographicSizeTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\AnimationWieldableEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\MeleeWeapon.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Relay\Scripts\RelayNetworkManager.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Scripts\UnityServicesManager.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\Relay\Scripts\MenuUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Core\PlayerUIBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\RepairStation.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\SaveManagerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterRunState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Ammo\FirearmInventoryAmmo.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Behaviours\WieldableBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\InteractiveButton.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\Blockers\WieldableActionBlockHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\PauseMenuUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\Core\MotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LightIntensityTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\ValueVector2Tween.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemDragger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\ScopeUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\ListExtensions.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Interpolators\SpringType.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\ITemperatureManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\CookingStationUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Gameplay\SpawnPoint.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\AudioManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\SingleValueMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\_Base\Wieldable.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Vitals\IEnergyManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\MessagePopup.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Interaction\ItemPickupInteractionUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\ValueFloatTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\SpriteRendererColorTween.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Building\Inspection\BuildableInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\WorkstationInspectorBaseUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\DamageCharacterBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\CanvasGroupAlphaTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\ParentChanger.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\Handlers\CharacterRunBlocker.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\DataDefinitionBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\IMovementInputProvider.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\IItem.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Menu\SaveSlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Actions\DismantleAction.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Surfaces\SurfaceEffects.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Throwable\Throwable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\CharacterHitbox.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Actions\DropAction.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Input\ItemActionInput.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\UI\UISessions.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\Death\RigidbodyDeathModule.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\ItemTooltipUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\LandMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Controllers\CharacterStructureDetector.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\ThrowablesUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Sleep\BasicSleepHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\FirearmItemBasedAttachmentsManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\Fire.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\DataReferenceDetailsAttribute.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Recoil\IRecoil.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\IHealthManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\PrefabDatabase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Data\IItemProperty.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\AddItemToInventory.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\ManagerBase.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemInspection\WeaponFiremodeInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Attachments\Shooters\FirearmComplexParabolicShooter.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Audio\HumanSoundsManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\Item.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Crafting\CraftingManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputContexts.cs" />
+    <Compile Include="Assets\XWizardGames\UnityGamingServices\UI\UIRoomPlayerElement.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\CookingStation.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Wieldables\_Wieldables\Carriable\ICarriable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\CustomActionManagerUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Crafting\CraftRequirement.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\IMixedMotion.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\Death\PlayerDeathHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\DataInfoUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Item\ItemDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Gameplay\GameMode.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\BobMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\SelectableGroupReferenceUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Character\ICharacterModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\ICameraFOVHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\BuildableDefinition.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\LevelManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Demo\ToggleDoubleJumpBehaviour.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\ImageFillAmountTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\Blockers\WieldableInputBlocker.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\PositionTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\CrosshairBaseUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Tweening\LightRangeTween.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Surfaces\SurfaceIdentity.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Inventory\ItemWheelUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Controllers\IWieldableMotionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\Feedbacks\AudioFeedbackUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\ChargeUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\FramedSelectableGroupUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\CameraRecoilMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\UnityEventWieldableEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\ICameraMotionHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Data\GeneralMotionData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Slots\SlotUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Firearms\Behaviours\FPFirearmProjectileCorrector.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterGroundedState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\AdditiveForceMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\ICrosshairHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\Placeable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\Core\InputManager.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Building\Buildables\Buildable.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\LightEffect.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\GrassManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\_Wieldables\Melee\Modules\BasicMeleeSwing.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Wieldables\CrosshairManagerUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Utilities\CharacterAccuracyHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Movement\States\CharacterJumpState.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Utility\ContainerUtility.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Damage\FallDamageHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\Door.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\RaycastMask.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\WieldableMotionEnablerEffect.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Data\VitalsData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\JumpMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\Components\MaterialEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Motion\Mixing\Modules\DataMotionModule.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\SaveSystem\GameData.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\EffectCollection.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\DynamicEffectCollection.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\CameraShakeManager.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\DataDefinition\DataDefinitionUtility.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Input\FPSMovementInput.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Shared\Selectable\SelectableGroupUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\UISystem\Utilities\BlurBackgroundUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Effects\PushbackEffect.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Utilities\ReflectionExtensions.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Inventory\Data\CraftingData.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Sleep\SleepUI.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Gathering\Gatherable.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\World\AmbienceController.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Camera\IBodyLeanHandler.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Wieldables\Input\IUseInputHandler.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\Workstations\CraftStation.cs" />
+    <Compile Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\UISystem\Inventory\Workstations\RepairStationUI.cs" />
+    <Compile Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\Inventory\Container\Restrictions\ContainerTagRestriction.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\XWizardGames\UnityGamingServices\Polymind Ref.asmref" />
+    <None Include="Assets\PolymindGames\PolymindFPSController\Code\Runtime\PolymindGames.asmdef" />
+    <None Include="Assets\XWizardGames\UnityGamingServices\Relay\Third Party\important readme.txt" />
+    <None Include="Assets\XWizardGames\STP MP\Scripts\STP MP.asmref" />
+    <None Include="Assets\PolymindGames\SurvivalTemplatePro\Code\Runtime\SurvivalTemplatePro.asmref" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library\PackageCache\com.unity.services.wire@1.2.6\Plugins\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography">
+      <HintPath>Assets\Mirror\Plugins\BouncyCastle\BouncyCastle.Cryptography.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PWCommon5DLL">
+      <HintPath>Assets\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProceduralWorlds.Flora.Core">
+      <HintPath>Assets\Procedural Worlds\Flora\Scripts\Core\ProceduralWorlds.Flora.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\Utilities\unity\2022.3.31f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PolymindGames.OdinSerializer.Player.csproj">
+      <Project>{1F9DA16A-E95B-5FC7-3346-EF76D95EDA17}</Project>
+      <Name>PolymindGames.OdinSerializer.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Toolbox.Player.csproj">
+      <Project>{31FFCF21-1D1B-9970-06E2-304071E1D907}</Project>
+      <Name>Toolbox.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{23487546-1BDC-7A77-48F5-BDE4DA1CEC95}</Project>
+      <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{FB9997B7-DD44-4EFA-8030-648CB3335D89}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.Player.csproj">
+      <Project>{6111BB70-FC12-4E2E-262F-DCD26DBA9AB3}</Project>
+      <Name>Unity.Postprocessing.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Player.csproj">
+      <Project>{5278773A-1B99-5B61-1D5B-FAD2CE7D0B07}</Project>
+      <Name>Mirror.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.Player.csproj">
+      <Project>{39ED43BC-E543-66B1-BA48-C9EE42F57B42}</Project>
+      <Name>Mirror.Components.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Authentication.Player.csproj">
+      <Project>{3957CDFC-C571-C324-E959-469D173B64F8}</Project>
+      <Name>Unity.Services.Authentication.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Player.csproj">
+      <Project>{6D3E1CDB-9B0D-9202-A92F-ED732D3F4DDB}</Project>
+      <Name>Unity.Services.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Lobbies.Player.csproj">
+      <Project>{C3FE1B5E-70C9-FB7F-8A1C-894F92A3A0E5}</Project>
+      <Name>Unity.Services.Lobbies.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UtpTransport.Player.csproj">
+      <Project>{7BC1421D-E27A-9F54-6CA9-AB8DC7EC0018}</Project>
+      <Name>UtpTransport.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Relay.Player.csproj">
+      <Project>{8CC794B1-255B-3FD6-8E45-90755E777319}</Project>
+      <Name>Unity.Services.Relay.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{AB52CA1C-FF0E-18C7-891C-C64E659755F3}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
