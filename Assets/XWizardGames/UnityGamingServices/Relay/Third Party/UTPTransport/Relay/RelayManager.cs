@@ -47,40 +47,65 @@ namespace Utp
 			StartCoroutine(GetAllocationFromJoinCodeTask(joinCode, onSuccess, onFailure));
 		}
 
-		private IEnumerator GetAllocationFromJoinCodeTask(string joinCode, Action onSuccess, Action onFailure)
-		{
-			Task<JoinAllocation> joinAllocation = RelayServiceSDK.JoinAllocationAsync(joinCode);
+        private IEnumerator GetAllocationFromJoinCodeTask(string joinCode, Action onSuccess, Action onFailure)
+        {
+            // Validate the join code
+            if (string.IsNullOrWhiteSpace(joinCode))
+            {
+                Debug.LogError("Invalid join code: JoinCode must be non-null, non-empty, and cannot contain only whitespace!");
+                onFailure?.Invoke(); // Invoke failure callback if join code is invalid
+                yield break;
+            }
 
-			while (!joinAllocation.IsCompleted)
-			{
-				yield return null;
-			}
+            // Proceed with attempting to join the relay using the join code
+            Task<JoinAllocation> joinAllocationTask = null;
 
-			if (joinAllocation.IsFaulted)
-			{
-				joinAllocation.Exception.Flatten().Handle((Exception err) =>
-				{
-					UtpLog.Error($"Unable to get Relay allocation from join code, encountered an error: {err.Message}.");
+            try
+            {
+                joinAllocationTask = RelayServiceSDK.JoinAllocationAsync(joinCode);
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError($"Error initiating JoinAllocationAsync: {ex.Message}");
+                onFailure?.Invoke(); // Invoke failure callback if task fails to start
+                yield break;
+            }
 
-					return true;
-				});
+            // Wait for the task to complete
+            while (!joinAllocationTask.IsCompleted)
+            {
+                yield return null;
+            }
 
-				onFailure?.Invoke();
+            // Check if the task faulted or failed
+            if (joinAllocationTask.IsFaulted)
+            {
+                Debug.LogError($"Unable to get Relay allocation from join code, encountered an error: {joinAllocationTask.Exception.Message}");
+                onFailure?.Invoke(); // Invoke failure callback on error
+                yield break;
+            }
 
-				yield break;
-			}
+            // Retrieve the result of the allocation
+            JoinAllocation joinAllocation = joinAllocationTask.Result;
 
-			JoinAllocation = joinAllocation.Result;
+            if (joinAllocation == null)
+            {
+                Debug.LogError("JoinAllocation is null, something went wrong.");
+                onFailure?.Invoke(); // Invoke failure callback if result is null
+                yield break;
+            }
 
-			onSuccess?.Invoke();
-		}
+            // Success - invoke the success callback
+            onSuccess?.Invoke();
+        }
 
-		/// <summary>
-		/// Get a list of Regions from the Relay Service.
-		/// </summary>
-		/// <param name="onSuccess">A callback to invoke when the list of regions is successfully retrieved.</param>
-		/// <param name="onFailure">A callback to invoke when the list of regions is unsuccessfully retrieved.</param>
-		public void GetRelayRegions(Action<List<Region>> onSuccess, Action onFailure)
+
+        /// <summary>
+        /// Get a list of Regions from the Relay Service.
+        /// </summary>
+        /// <param name="onSuccess">A callback to invoke when the list of regions is successfully retrieved.</param>
+        /// <param name="onFailure">A callback to invoke when the list of regions is unsuccessfully retrieved.</param>
+        public void GetRelayRegions(Action<List<Region>> onSuccess, Action onFailure)
 		{
 			StartCoroutine(GetRelayRegionsTask(onSuccess, onFailure));
 		}
